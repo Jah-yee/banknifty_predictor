@@ -5,7 +5,7 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense, Dropout
 from tensorflow.keras.callbacks import EarlyStopping
 from sklearn.metrics import mean_absolute_error, mean_squared_error
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 
 from .preprocess import preprocess_data
 from .lstm_prepare import prepare_data
